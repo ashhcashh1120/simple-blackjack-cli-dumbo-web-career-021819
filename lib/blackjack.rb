@@ -5,7 +5,8 @@ end
 
 def deal_card
   # code #deal_card here
-  puts rand(11)
+  number = rand(1..11)
+  return number
 end
 
 def display_card_total
